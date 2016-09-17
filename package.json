@@ -1,6 +1,6 @@
 {
   "name": "patternplate-legacy-defaults",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Legacy defaults for patternplate projects migrating from 0.x",
   "main": "index.js",
   "scripts": {
