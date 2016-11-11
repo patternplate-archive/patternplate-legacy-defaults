@@ -1,7 +1,7 @@
 module.exports = {
 	markdown: {
 		inFormat: 'md',
-		outFormats: 'html'
+		outFormat: 'html'
 	},
 	react: {
 		inFormat: 'jsx',
