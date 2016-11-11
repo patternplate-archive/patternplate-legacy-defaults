@@ -9,6 +9,10 @@ for `.transforms` and `.patterns` with the update from `0.18` to `1.0`.
 
 To make migrating from `0.18` easier the former defaults moved to this project.
 
+| Warning   |     |
+|:---------:|:----|
+| :warning: | This installs the former default `patternplate-transform-*` packages with the exact versions used by patternplate at version 0.18. For most transforms further development takes place on higher, breaking version. To benefit from advances in transform development upgrade to the latest versions of the transforms you use. |
+
 ## Installation
 
 Grab it from npm
