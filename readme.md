@@ -1,5 +1,7 @@
 # patternplate-legacy-defaults
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/sinnerschrader/patternplate-legacy-defaults.svg)](https://greenkeeper.io/)
+
 Legacy defaults for patternplate projects migrating from 0.x.
 
 ## Rationale
