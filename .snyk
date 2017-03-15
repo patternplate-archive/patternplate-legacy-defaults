@@ -1,0 +1,37 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:minimatch:20160620':
+    - patternplate-transform-babel > babel-core > regenerator > commoner > glob > minimatch:
+        reason: 'Babel@5 required, can''t update or replace'
+        expires: '2017-04-14T14:02:44.957Z'
+  'npm:qs:20170213':
+    - patternplate-transform-browserify > watchify > chokidar > fsevents > node-pre-gyp > request > qs:
+        reason: 'watchify@3 required, can''t upgrade'
+        expires: '2017-04-14T14:02:44.957Z'
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:marked:20150520':
+    - patternplate-transform-markdown > marked:
+        patched: '2017-03-15T13:56:23.059Z'
+  'npm:minimatch:20160620':
+    - patternplate-transform-browserify > babelify > babel-core > minimatch:
+        patched: '2017-03-15T13:56:23.059Z'
+    - patternplate-transform-browserify > envify > jstransform > commoner > glob > minimatch:
+        patched: '2017-03-15T13:56:23.059Z'
+    - patternplate-transform-browserify > browserify > glob > minimatch:
+        patched: '2017-03-15T13:56:23.059Z'
+    - patternplate-transform-browserify > babelify > babel-core > regenerator > commoner > glob > minimatch:
+        patched: '2017-03-15T13:56:23.059Z'
+    - patternplate-transform-browserify > watchify > browserify > glob > minimatch:
+        patched: '2017-03-15T13:56:23.059Z'
+    - patternplate-transform-react > babel-core > minimatch:
+        patched: '2017-03-15T13:56:23.059Z'
+    - patternplate-transform-react > babel-core > regenerator > commoner > glob > minimatch:
+        patched: '2017-03-15T13:56:23.059Z'
+    - patternplate-transform-babel > babel-core > minimatch:
+        patched: '2017-03-15T13:56:23.059Z'
+  'npm:marked:20170112':
+    - patternplate-transform-markdown > marked:
+        patched: '2017-03-15T13:56:23.059Z'

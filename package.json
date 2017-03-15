@@ -29,6 +29,14 @@
     "patternplate-transform-react-to-markup": "0.3.8",
     "patternplate-transform-resolve-imports": "0.1.1",
     "patternplate-transform-resolve-includes": "0.1.4",
-    "patternplate-transform-uglify": "0.1.0"
-  }
+    "patternplate-transform-uglify": "0.1.0",
+    "snyk": "^1.25.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "snyk test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
