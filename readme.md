@@ -1,3 +1,6 @@
+> # ⚠️ Deprecated
+> Use instead: https://patternplate.github.io/
+
 # patternplate-legacy-defaults
 
 Legacy defaults for patternplate projects migrating from 0.x.
